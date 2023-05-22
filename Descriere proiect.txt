@@ -1,0 +1,28 @@
+Proiect Programare Orientata pe Obiecte-PAO
+
+-platforma delivery clothes store
+
+
+Obiecte:
+
+1. Magazin  (ID, Nume, Adresa magazin,  Lista Produse)  
+2. User/client  (ID, Nume, Lista comanda, Telefon)
+3. Comanda (ID, User, Lista produse, Total Plata, Stare)
+4. Sofer (Nume, Telefon, Adresa)
+5. Scor magazin (Magazin, User, nota)
+6. Produse ( Id, Nume, Pret)
+7. Lista Produse (Produse)
+8. Adresa (Strada, Oras, Judet, Cod Postal)
+
+Actiuni:
+
+  1. Vizualizează Magazine        
+  2. Adaugă produs în Lista Produse
+  3. Elimină produs din Lista Produse
+  4. Adauga User
+  5. Vizualizează detalii comandă
+  6. Actualizează starea unei comenzi
+  7. Vizualizează scor
+  8. Caută un produs
+  9. Vizualizează Lista Produse
+  10. Elimina Sofer
