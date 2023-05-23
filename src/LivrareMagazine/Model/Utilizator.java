@@ -1,13 +1,16 @@
+package LivrareMagazine.Model;
+
 import java.util.ArrayList;
 import java.util.List;
-public class User {
+public class Utilizator {
 
     private int id;
     private String nume;
+
     private List<Comanda> comenzi;
 
     // Constructor
-    public User(int id, String nume) {
+    public Utilizator(int id, String nume) {
         this.id = id;
         this.nume = nume;
         comenzi = new ArrayList<>();
@@ -26,7 +29,7 @@ public class User {
         return comenzi;
     }
 
-    public void adaugăComanda(Comanda comanda) {
+    public void adaugaComanda(Comanda comanda) {
         comenzi.add(comanda);
     }
 

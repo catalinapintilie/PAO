@@ -1,3 +1,5 @@
+package LivrareMagazine.Model;
+
 public class Adresa
 {
     private String strada;

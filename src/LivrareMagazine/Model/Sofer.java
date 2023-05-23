@@ -1,3 +1,4 @@
+package LivrareMagazine.Model;
 
 public class Sofer
 {

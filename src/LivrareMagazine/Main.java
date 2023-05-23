@@ -1,7 +1,11 @@
+package LivrareMagazine;
+
+import LivrareMagazine.Service.ProduseService;
+
 import java.util.Scanner;
 
 public class Main {
-    private static ClothesDeliveryService ClothesDeliveryService = new ClothesDeliveryService();
+    private static LivrareMagazine.Service.ProduseService ProduseService = new ProduseService();
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -23,7 +27,7 @@ public class Main {
                     removeFromlistaProduse();
                     break;
                 case 4:
-                    addUser();
+                    addUtilizator();
                     break;
                 case 5:
                     viewComanda();
@@ -61,7 +65,7 @@ public class Main {
     private static void removeSofer() {
     }
 
-    private static void addUser() {
+    private static void addUtilizator() {
     }
 
     private static void viewlistaProduse() {
@@ -90,12 +94,12 @@ public class Main {
         System.out.println("1. Vizualizează Magazine");
         System.out.println("2. Adaugă produs în Lista Produse");
         System.out.println("3. Elimină produs din Lista Produse");
-        System.out.println("4. Adauga User");
+        System.out.println("4. Adauga Utilizator");
         System.out.println("5. Vizualizează detalii comandă");
         System.out.println("6. Actualizează starea unei comenzi");
         System.out.println("7. Vizualizează scor");
         System.out.println("8. Caută un produs");
-        System.out.println("9. Vizualizează Lista Produse");
+        System.out.println("9. Vizualizează Lista Livrare Produse");
         System.out.println("10. Elimina Sofer");
         System.out.println("0. Ieși");
         System.out.print("Selectează o opțiune dorita: ");

@@ -1,3 +1,5 @@
+package LivrareMagazine.Model;
+
 public class Produse {
         private int id;
         private String nume;
@@ -22,4 +24,10 @@ public class Produse {
         public double getPret() {
             return pret;
         }
+
+         public void add(Produse produse) {
+              produse.add(produse);
+         }
 }
+
+

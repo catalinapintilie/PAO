@@ -1,17 +1,19 @@
+package LivrareMagazine.Model;
+
 import java.util.ArrayList;
 import java.util.List;
 public class Comanda {
 
     private int id;
-    private User user;
+    private Utilizator utilizator;
     private List<Produse> articole;
     private double totalPlata;
     private String stare;
 
     // Constructor
-    public Comanda(int id, User user) {
+    public Comanda(int id, Utilizator utilizator) {
         this.id = id;
-        this.user = user;
+        this.utilizator = utilizator;
         articole = new ArrayList<>();
         totalPlata = 0;
         stare = "Nu s-a procesat comanda";
@@ -22,8 +24,8 @@ public class Comanda {
         return id;
     }
 
-    public User getUser() {
-        return user;
+    public Utilizator getUtilizator() {
+        return utilizator;
     }
 
     public List<Produse> getarticole() {
