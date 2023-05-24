@@ -6,7 +6,7 @@ Proiect Programare Orientata pe Obiecte-PAO
 Obiecte:
 
 1. Magazin  (ID, Nume, Adresa magazin,  Lista Produse)  
-2. User/client  (ID, Nume, Lista comanda, Telefon)
+2. Utilizator  (ID, Nume, Lista comanda, Telefon)
 3. Comanda (ID, User, Lista produse, Total Plata, Stare)
 4. Sofer (Nume, Telefon, Adresa)
 5. Scor magazin (Magazin, User, nota)
